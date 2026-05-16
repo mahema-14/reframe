@@ -13,9 +13,16 @@ export default function Home() {
       </a>
       
       <VideoEditor />
+<<<<<<< Updated upstream
     <main>
       <VideoEditor />
     </main>
     </>
   );
 }
+=======
+    </>
+  );
+}
+    
+>>>>>>> Stashed changes
