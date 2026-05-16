@@ -160,7 +160,7 @@ const handleHeightChange = useCallback((h: number) => {
             />
             {recipe.customWidth % 2!==0 && (
               <p className="text-[10px] text-amber-500 mt-1">
-                Warning - 'Odd number will round up to {recipe.customWidth + 1}'
+                Warning - Odd number will round up to {recipe.customWidth + 1}
               </p>
             )}s
           </div>
@@ -195,7 +195,7 @@ const handleHeightChange = useCallback((h: number) => {
             />
             {recipe.customHeight %2!==0 && (
               <p className="text-[10px] text-amber-500 mt-1">
-                Warning- 'Odd number will round up to {recipe.customHeight + 1}'
+                Warning- Odd number will round up to {recipe.customHeight + 1}
               </p>
             )}
           </div>
