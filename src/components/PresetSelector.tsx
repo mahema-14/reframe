@@ -119,6 +119,11 @@ export default function PresetSelector({ recipe, onChange }: Props) {
               onChange={(e) => onChange({ customWidth: Number(e.target.value) })}
               className="w-full text-sm px-3 py-1.5 border border-[var(--border)] rounded-md bg-[var(--bg)] font-heading focus:outline-none focus:ring-2 focus:ring-film-400 transition-shadow"
             />
+            {recipe.customWidth % 2!==0 && (
+              <p className="text-[10px] text-amber-500 mt-1">
+                Warning - 'Odd number will round up to {recipe.customWidth + 1}'
+              </p>
+            )}s
           </div>
           <span className="text-[var(--muted)] mt-5 font-heading text-sm">x</span>
           <div className="flex-1">
@@ -135,6 +140,11 @@ export default function PresetSelector({ recipe, onChange }: Props) {
               onChange={(e) => onChange({ customHeight: Number(e.target.value) })}
               className="w-full text-sm px-3 py-1.5 border border-[var(--border)] rounded-md bg-[var(--bg)] font-heading focus:outline-none focus:ring-2 focus:ring-film-400 transition-shadow"
             />
+            {recipe.customHeight %2!==0 && (
+              <p className="text-[10px] text-amber-500 mt-1">
+                Warning- 'Odd number will round up to {recipe.customHeight + 1}'
+              </p>
+            )}
           </div>
         </div>
       )}
