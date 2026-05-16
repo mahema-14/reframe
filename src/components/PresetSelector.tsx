@@ -162,7 +162,7 @@ const handleHeightChange = useCallback((h: number) => {
               <p className="text-[10px] text-amber-500 mt-1">
                 Warning - Odd number will round up to {recipe.customWidth + 1}
               </p>
-            )}s
+            )}
           </div>
 
           <button
