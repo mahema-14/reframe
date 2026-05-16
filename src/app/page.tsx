@@ -12,17 +12,10 @@ export default function Home() {
         ⭐ Star on GitHub
       </a>
       
-      <VideoEditor />
-<<<<<<< Updated upstream
+     
     <main>
       <VideoEditor />
     </main>
     </>
   );
 }
-=======
-    </>
-  );
-}
-    
->>>>>>> Stashed changes
